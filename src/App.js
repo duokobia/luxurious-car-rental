@@ -1,5 +1,3 @@
-
-
 function App() {
   return (
     <div className="App">
@@ -19,8 +17,7 @@ function App() {
       <section className="landing-banner">
         <h2>Luxurious Limo Hire</h2>
         <p>
-          We offer professional car rental & limousone services in our range of
-          high-end vehicles
+          We offer professional car rental & limousone services in our range of high-end vehicles
         </p>
         <button>Open Fleet</button>
         <card>
@@ -47,8 +44,8 @@ function App() {
         <div>
           <h3>Services</h3>
           <span>
-            We invite you to try our services, and we perrsonally guarantee that
-            you will be completely satified.
+            We invite you to try our services, and we perrsonally guarantee that you will be
+            completely satified.
           </span>
         </div>
         <div>
@@ -56,8 +53,8 @@ function App() {
             <img src="" alt="" />
             <h3>Airport transfers</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -65,8 +62,8 @@ function App() {
             <img src="" alt="" />
             <h3>Intercity trips</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -74,8 +71,8 @@ function App() {
             <img src="" alt="" />
             <h3>Wedding events</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -83,8 +80,8 @@ function App() {
             <img src="" alt="" />
             <h3>Business meetings</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -94,8 +91,8 @@ function App() {
         <div>
           <h3>Our Fleet</h3>
           <span>
-            We invite you to try our services, and we perrsonally guarantee that
-            you will be completely satified.
+            We invite you to try our services, and we perrsonally guarantee that you will be
+            completely satified.
           </span>
         </div>
         <div className="landing-our-fleet-carousel">
@@ -109,8 +106,8 @@ function App() {
             <img src="" alt="" />
             <h3>Airport transfers</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -118,8 +115,8 @@ function App() {
             <img src="" alt="" />
             <h3>Intercity trips</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -127,8 +124,8 @@ function App() {
             <img src="" alt="" />
             <h3>Wedding events</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -136,8 +133,8 @@ function App() {
             <img src="" alt="" />
             <h3>Business meetings</h3>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -147,8 +144,8 @@ function App() {
         <div>
           <h3>Why Choose Us</h3>
           <span>
-            We invite you to try our services, and we perrsonally guarantee that
-            you will be completely satified.
+            We invite you to try our services, and we perrsonally guarantee that you will be
+            completely satified.
           </span>
         </div>
         <div className="landing-our-fleet-carousel">
@@ -156,8 +153,8 @@ function App() {
             <img src="" alt="" />
             <h4>Airport transfers</h4>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -165,8 +162,8 @@ function App() {
             <img src="" alt="" />
             <h4>Intercity trips</h4>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -174,8 +171,8 @@ function App() {
             <img src="" alt="" />
             <h4>Wedding events</h4>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -183,8 +180,8 @@ function App() {
             <img src="" alt="" />
             <h4>Business meetings</h4>
             <p>
-              With additional wait time and flight tracking in case of delays,
-              our service is optimized to make every airport transfer a breeze.
+              With additional wait time and flight tracking in case of delays, our service is
+              optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
           </card>
@@ -194,8 +191,8 @@ function App() {
         <div>
           <h3>Only today $75/day</h3>
           <span>
-            We invite you to try our services, and we perrsonally guarantee that
-            you will be completely satified.
+            We invite you to try our services, and we perrsonally guarantee that you will be
+            completely satified.
           </span>
         </div>
         <div className="landing-our-fleet-carousel">
@@ -272,7 +269,7 @@ function App() {
             <span>Icon</span>
             <span>Icon</span>
             <span>Icon</span>
-            </div>
+          </div>
         </div>
       </footer>
     </div>
