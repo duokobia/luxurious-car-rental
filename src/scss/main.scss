@@ -1,0 +1,62 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  // background-color: yellow;
+  color: black;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+}
+.active {
+  color: gray;
+}
+button {
+  border-radius: 5px;
+}
+.card {
+  border: 1px solid lightgrey;
+  border-radius: 16px;
+}
+.landingBanner {
+  width: 100vw;
+  height: auto;
+}
+.landingBanner-card {
+  background-color: lightgrey;
+  color: white;
+}
+.landingBanner-form {
+  border-radius: 16px;
+  background-color: white;
+  width: 20vw;
+}
+.landingBanner-form__button {
+  background-color: white;
+  background-color: #b5d57f;
+  color: black;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 15px;
+}
+.landingBanner-form__button :active {
+  background-color: lightgreen;
+  color: black;
+  border: 0;
+  padding: 6px 8px;
+}
+input {
+  background-color: lightgrey;
+  border: 0;
+  border-radius: 5px;
+  padding: 3px;
+}
