@@ -22,10 +22,6 @@ h1 {
 }
 h2 {
   font-size: 44px;
-  font-weight: 700;
-  color: black;
-  line-height: 64px;
-  letter-spacing: 0.4em;
 }
 a {
   color: black;
@@ -73,6 +69,10 @@ button {
 }
 .landingBanner-card__caption {
   // color: red;
+  font-weight: 700;
+  color: black;
+  line-height: 64px;
+  letter-spacing: 0.4em;
   line-height: 64px;
 }
 .landingBanner-form {
@@ -122,4 +122,69 @@ input {
   width: 100%;
   height: 100%;
   // gap: 3rem;
+}
+
+/* Our Fleet*/
+.ourFleet-carousel {
+  border: 2px solid brown;
+}
+/*Why Choose Us*/
+.whyChooseUs-cards {
+  margin-right: 5rem;
+  border: 2px solid rgb(226, 43, 104);
+}
+.whyChooseUs-cards__icons {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 3rem;
+  border-radius: 16px;
+  border: 2px solid blueviolet;
+}
+.whyChooseUs-cards__caption {
+  width: 60%;
+  margin-right: 2rem;
+}
+/* Only Today*/
+.onlyToday-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  border-radius: 16px;
+}
+.onlyToday-card__header {
+  font-size: 40px;
+  font-weight: 300;
+}
+.onlyToday-card__image {
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+.appFooter-card {
+  border-radius: 24px;
+  background-color: #181818;
+  color: #eeeeee;
+}
+.appFooter-logo {
+  font-weight: 400;
+}
+.appFooter-input {
+  background-color: #444444;
+}
+.appFooter-subcribe {
+  font-weight: 200;
+}
+.appFooter-list {
+  font-size: 14px;
+  font-weight: 200;
+}
+.appFooter-copyright {
+  font-size: 14px;
+  font-weight: 300;
+}
+.appFooter-tandc {
+  font-size: 14px;
+  font-weight: 200;
 }

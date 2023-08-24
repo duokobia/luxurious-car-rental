@@ -4,7 +4,7 @@ function LandingServices() {
   return (
     <section className="landing-services container py-5">
       <div className="col-8 offset-3 d-flex align-items-center justify-content-center my-5">
-        <h3 className="pe-5">Services</h3>
+        <h2 className="pe-5">Services</h2>
         <small className="row">
           <span>We invite you to try our services, and we personally</span>
           <span>guarantee that you will be completely satified.</span>

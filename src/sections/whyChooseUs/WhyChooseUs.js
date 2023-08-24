@@ -1,51 +1,51 @@
 import React from "react";
+import { FaAlgolia } from "react-icons/fa";
 
 function WhyChooseUs() {
   return (
-    <section className="landing-why-choose-us">
-      <div>
-        <h3>Why Choose Us</h3>
-        <span>
-          We invite you to try our services, and we perrsonally guarantee that you will be
-          completely satified.
-        </span>
+    <section className="whyChooseUs container py-5">
+      <div className="col-11 offset-1 d-flex align-items-center justify-content-center my-5">
+        <h2 className="pe-5">Why Choose Us</h2>
+        <small className="row">
+          <span>At LimosRental we pride ourselves in delivering extensive services to</span>
+          <span>fulfil all of your needs with first rate customer care.</span>
+        </small>
       </div>
-      <div className="landing-our-fleet-carousel">
-        <card>
-          <img src="" alt="" />
-          <h4>Airport transfers</h4>
-          <p>
+      <div className="row pb-5">
+        <card className="whyChooseUs-cards col">
+          <FaAlgolia className="whyChooseUs-cards__icons" />
+          <h5>Easy Online Booking</h5>
+          <small className="whyChooseUs-cards__caption">
             With additional wait time and flight tracking in case of delays, our service is
             optimized to make every airport transfer a breeze.
-          </p>
-          <button>Read More</button>
+          </small>
         </card>
-        <card>
-          <img src="" alt="" />
-          <h4>Intercity trips</h4>
-          <p>
+        <card className="whyChooseUs-cards col">
+          <FaAlgolia className="whyChooseUs-cards__icons" />
+
+          <h5>Professional Drivers</h5>
+          <small>
             With additional wait time and flight tracking in case of delays, our service is
             optimized to make every airport transfer a breeze.
-          </p>
-          <button>Read More</button>
+          </small>
         </card>
-        <card>
-          <img src="" alt="" />
-          <h4>Wedding events</h4>
-          <p>
+        <card className="whyChooseUs-cards col">
+          <FaAlgolia className="whyChooseUs-cards__icons" />
+
+          <h5>Variety of Car Brands</h5>
+          <small>
             With additional wait time and flight tracking in case of delays, our service is
             optimized to make every airport transfer a breeze.
-          </p>
-          <button>Read More</button>
+          </small>
         </card>
-        <card>
-          <img src="" alt="" />
-          <h4>Business meetings</h4>
-          <p>
+        <card className="whyChooseUs-cards col">
+          <FaAlgolia className="whyChooseUs-cards__icons" />
+
+          <h5>Online Payment</h5>
+          <small>
             With additional wait time and flight tracking in case of delays, our service is
             optimized to make every airport transfer a breeze.
-          </p>
-          <button>Read More</button>
+          </small>
         </card>
       </div>
     </section>
