@@ -24,14 +24,14 @@ h2 {
   font-size: 44px;
 }
 a {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 a:hover {
   color: gray;
 }
 .active {
-  color: gray;
+  color: black;
 }
 button {
   border: 0;
@@ -41,17 +41,35 @@ button {
   padding: 8px 16px;
   font-size: 12px;
 }
-// button {
-//   border-radius: 5px;
-// }
 .card {
-  border: 1px solid lightgrey;
+  border: 0;
   border-radius: 16px;
   margin: 0;
   padding: 0;
 }
+/*Header*/
+// .appHeader {
+//   display: flex;
+//   flex-wrap: nowrap;
+// }
+.appHeader-logo {
+  font-weight: 500;
+  /*Use special font here*/
+}
+.appHeader-logo__green {
+  color: #b5d57f;
+}
+.appHeader-dropdownCol {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.appHeader-icon {
+  font-size: 44px;
+}
+/* Landing Banner*/
 .landingBanner {
-  width: 100vw;
+  width: 100%;
   height: auto;
   border: 2px solid red;
   margin: 0;
@@ -68,12 +86,16 @@ button {
   border: 2px solid green;
 }
 .landingBanner-card__caption {
-  // color: red;
   font-weight: 700;
   color: black;
   line-height: 64px;
   letter-spacing: 0.4em;
   line-height: 64px;
+}
+.landingBanner-card__parag {
+  font-size: 18px;
+  letter-spacing: 0.14em;
+  line-height: 40px;
 }
 .landingBanner-form {
   position: absolute;
@@ -85,25 +107,44 @@ button {
 }
 .landingBanner-form__button {
   display: inline-block;
-  background-color: white;
-  background-color: #b5d57f;
   color: #181818;
-  border: 1px solid lightgrey;
   border-radius: 8px;
   padding: 6px 16px;
   font-size: 15px;
 }
-.landingBanner-form__button :active {
-  background-color: lightgreen;
+.landingBanner-form__buttonA {
+  border: 1px solid lightgrey;
+  background-color: #b5d57f;
   color: black;
-  border: 0;
-  padding: 6px 8px;
+}
+.landingBanner-form__button :active {
+  border: 1px solid lightgrey;
+  background-color: #b5d57f;
+  color: black;
+}
+.landingBanner-form__divider {
+  font-size: 30px;
+  font-weight: 200;
+  color: gray;
 }
 input {
   background-color: #eeeeee;
   border: 0;
   border-radius: 5px;
   padding: 6px;
+}
+// .landingBanner-form__cta {
+//   display: flex;
+//   align-items: center;
+//   justify-items: center;
+//   width: 100%;
+// }
+.landingBannerForm-cta__pickup {
+  font-size: 13px;
+  // font-weight: 400;
+}
+.landingBannerForm-cta__ddown {
+  background-color: #eeeeee;
 }
 /* Services*/
 /* To-Do*/
@@ -127,6 +168,34 @@ input {
 /* Our Fleet*/
 .ourFleet-carousel {
   border: 2px solid brown;
+}
+.ourFleet-carousel__navArrow {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  border: 1px solid gray;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  font-size: 15px;
+  margin-right: 1rem;
+}
+.ourFleet-image {
+  border-radius: 16px;
+}
+.carousel-container {
+  background-color: red;
+  background-color: white;
+  // height: 100%;
+}
+.custom-dot-list-style {
+  color: #b5d57f;
+  background-color: red;
+  margin-top: 30px;
+}
+.carousel-item-padding-40-px {
+  width: 20px;
+  padding: 10px 2.5px 60px 2.5px;
 }
 /*Why Choose Us*/
 .whyChooseUs-cards {

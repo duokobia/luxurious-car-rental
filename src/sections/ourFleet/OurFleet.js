@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import AppCarousel from "../../components/carousel/AppCarousel";
 
 function OurFleet() {
   return (
@@ -12,24 +14,46 @@ function OurFleet() {
         </small>
       </div>
       <div className="ourFleet-carousel">
-        <nav className="ourFleet-carousel__navList col-3 offset-5">
-          <ul className="d-flex align-items-center justify-content-between list-unstyled">
-            <li>
-              <NavLink>All</NavLink>
-            </li>
-            <li>
-              <NavLink>Luxury</NavLink>
-            </li>
-            <li>
-              <NavLink>Business</NavLink>
-            </li>
-            <li>
-              <NavLink>Crossover</NavLink>
-            </li>
-          </ul>
-        </nav>
+        <div className="row d-flex align-items-baseline pb-4">
+          <nav className="ourFleet-carousel__navList col-3 offset-4">
+            <ul className="d-flex align-items-center justify-content-between list-unstyled">
+              <li>
+                <NavLink className="landingBanner-form__button landingBanner-form__buttonA active me-1">
+                  All
+                </NavLink>
+              </li>
+              <span className="landingBanner-form__divider me-1">|</span>
+              <li>
+                <NavLink landingBanner-form__divider me-1>
+                  Luxury
+                </NavLink>
+              </li>
+              <span className="landingBanner-form__divider me-1">|</span>
+              <li>
+                <NavLink landingBanner-form__divider me-1>
+                  Business
+                </NavLink>
+              </li>
+              <span className="landingBanner-form__divider me-1">|</span>
+              <li>
+                <NavLink landingBanner-form__divider me-1>
+                  Crossover
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+          <div className="col-3 d-flex align-items-center justify-content-center">
+            <span className="ourFleet-carousel__navArrow">
+              <IoIosArrowBack />
+            </span>
+            <span className="ourFleet-carousel__navArrow">
+              <IoIosArrowForward />
+            </span>
+          </div>
+        </div>
         <div className="ourFleet-carousel__imgsbox">
-          <card>
+          <AppCarousel />
+          {/* <card>
             <img src="" alt="" />
             <h3>Airport transfers</h3>
             <p>
@@ -64,7 +88,7 @@ function OurFleet() {
               optimized to make every airport transfer a breeze.
             </p>
             <button>Read More</button>
-          </card>
+          </card> */}
         </div>
       </div>
     </section>

@@ -8,8 +8,8 @@ function Header() {
     <header className="appHeader container-fluid">
       <div className="row px-3 py-3">
         <h1 className="col-3">
-          <Link to="/" className="text-decoration-none">
-            LuxRentals
+          <Link to="/" className="appHeader-logo text-decoration-none text-dark">
+            Lux<span className="appHeader-logo__green">R</span>entals
           </Link>
         </h1>
         <nav className="col-4">
@@ -36,14 +36,21 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="col-5 ps-5">
-          <button className="col-3 offset-3 me-5">
-            <Link to="/" className="text-decoration-none">
-              Dropdown btn
-            </Link>
-          </button>
+        <div className="appHeader-dropdownCol col-2 offset-3 ps-5">
+          <select className="form-select col-2 offset-3 me-2" aria-label="Default select example">
+            <option selected>
+              <span>
+                <PiDotsNineBold className="fs-4 fw-bold" />
+                ENG
+              </span>
+              {/* <img src="" alt=""> */}
+            </option>
+            <option value="1">FR</option>
+            <option value="2">DUT</option>
+            <option value="3">GER</option>
+          </select>
           <span>
-            <PiDotsNineBold className="fs-1 fw-bold" />
+            <PiDotsNineBold className="appHeader-icon fw-bold" />
           </span>
         </div>
       </div>

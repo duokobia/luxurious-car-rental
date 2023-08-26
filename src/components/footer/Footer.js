@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  BiLogoYoutube,
+  BiLogoFacebook,
+  BiLogoTwitter,
+  BiLogoInstagramAlt,
+  BiLogoLinkedinSquare
+} from "react-icons/bi";
 
 function Footer() {
   return (
@@ -52,18 +59,28 @@ function Footer() {
             </nav>
             <div className="row mt-5">
               <span className="appFooter-copyright col-4">@ 2023 LuxuriousRentals</span>
-              <ul className="appFooter-tandc col-4 d-flex align-items-center justify-content-between list-unstyled ps-3">
+              <ul className="appFooter-tandc col-4 d-flex align-items-baseline justify-content-between list-unstyled ps-3">
                 <li>Terms</li>
                 <li>Privacy policy</li>
                 <li>Legal notice</li>
                 <li>Accessibility</li>
               </ul>
               <div className="appFooter-copyright appFooter-socialIcons col-4 ps-5">
-                <span>Icon</span>
-                <span>Icon</span>
-                <span>Icon</span>
-                <span>Icon</span>
-                <span>Icon</span>
+                <span className="fs-3 ps-5 pe-4">
+                  <BiLogoYoutube />
+                </span>
+                <span className="fs-3 pe-4">
+                  <BiLogoFacebook />
+                </span>
+                <span className="fs-3 pe-4">
+                  <BiLogoTwitter />
+                </span>
+                <span className="fs-3 pe-4">
+                  <BiLogoInstagramAlt />
+                </span>
+                <span className="fs-3 pe-4">
+                  <BiLogoLinkedinSquare />
+                </span>
               </div>
             </div>
           </div>
