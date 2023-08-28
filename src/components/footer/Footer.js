@@ -6,24 +6,30 @@ import {
   BiLogoInstagramAlt,
   BiLogoLinkedinSquare
 } from "react-icons/bi";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Footer() {
   return (
     <footer className="appFooter container-fluid mb-5">
-      <card className="appFooter-card card px-5 pt-4 pb-0">
-        <div className="row px-3 py-3">
-          <div className="row px-3 py-3">
+      <card className="appFooter-card card ps-5 pt-4 pb-0">
+        <div className="row ps-3 py-3">
+          <div className="row ps-3 py-3">
             <div className="col-3">
               <h4 className="appFooter-logo pb-5">LuxuriousRentals</h4>
-              <span className="appFooter-subcribe row mb-2">Subscribe to the newletter</span>
-              <input
-                className="appFooter-input row mb-4 p-2"
-                type="text"
-                placeholder="Enter your Email"
-                aria-label="default input example"
-              />
+              <span className="appFooter-subcribe row ms-1 mb-3">Subscribe to the newletter</span>
+              <div className="appFooter-inputContainer d-flex align-items-baseline justify-content-between me-5 pe-5">
+                <input
+                  className="appFooter-input col mb-4 p-2 ps-3"
+                  type="text"
+                  placeholder="Email"
+                  aria-label="default input example"
+                />
+                <span className="appFooter-inputArrow mb-4 p-2">
+                  <IoIosArrowRoundForward className="fs-3 pb-1" />
+                </span>
+              </div>
             </div>
-            <nav className="col-9">
+            <nav className="col-8 offset-1">
               <div className="row">
                 <ul className="appFooter-list col-4 list-unstyled">
                   <li>
@@ -58,29 +64,35 @@ function Footer() {
               </div>
             </nav>
             <div className="row mt-5">
-              <span className="appFooter-copyright col-4">@ 2023 LuxuriousRentals</span>
-              <ul className="appFooter-tandc col-4 d-flex align-items-baseline justify-content-between list-unstyled ps-3">
-                <li>Terms</li>
-                <li>Privacy policy</li>
-                <li>Legal notice</li>
-                <li>Accessibility</li>
-              </ul>
-              <div className="appFooter-copyright appFooter-socialIcons col-4 ps-5">
-                <span className="fs-3 ps-5 pe-4">
-                  <BiLogoYoutube />
-                </span>
-                <span className="fs-3 pe-4">
-                  <BiLogoFacebook />
-                </span>
-                <span className="fs-3 pe-4">
-                  <BiLogoTwitter />
-                </span>
-                <span className="fs-3 pe-4">
-                  <BiLogoInstagramAlt />
-                </span>
-                <span className="fs-3 pe-4">
-                  <BiLogoLinkedinSquare />
-                </span>
+              <div className="row d-flex align-items-baseline justify-content-between">
+                <div className="col-7">
+                  <div className="row">
+                    <span className="appFooter-copyright col-4">@ 2023 LuxuriousRentals</span>
+                    <ul className="appFooter-tandc col d-flex align-items-baseline justify-content-between list-unstyled ps-5">
+                      <li>Terms</li>
+                      <li>Privacy policy</li>
+                      <li>Legal notice</li>
+                      <li>Accessibility</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="appFooter-copyright appFooter-socialIcons col-3">
+                  <span className="fs-3  pe-3">
+                    <BiLogoYoutube />
+                  </span>
+                  <span className="fs-3 pe-3">
+                    <BiLogoFacebook />
+                  </span>
+                  <span className="fs-3 pe-3">
+                    <BiLogoTwitter />
+                  </span>
+                  <span className="fs-3 pe-3">
+                    <BiLogoInstagramAlt />
+                  </span>
+                  <span className="fs-3 pe-3">
+                    <BiLogoLinkedinSquare />
+                  </span>
+                </div>
               </div>
             </div>
           </div>

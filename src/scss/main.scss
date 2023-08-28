@@ -3,12 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // overflow-x: hidden;
 }
 body {
-  // background-color: yellow;
   color: black;
-  // overflow-x: hidden;
 }
 html {
   margin: 0;
@@ -37,9 +34,13 @@ button {
   border: 0;
   border-radius: 5px;
   background-color: black;
+  opacity: 0.92;
   color: rgb(239, 234, 234);
   padding: 8px 16px;
   font-size: 12px;
+}
+small {
+  opacity: 0.75;
 }
 .card {
   border: 0;
@@ -47,11 +48,6 @@ button {
   margin: 0;
   padding: 0;
 }
-/*Header*/
-// .appHeader {
-//   display: flex;
-//   flex-wrap: nowrap;
-// }
 .appHeader-logo {
   font-weight: 500;
   /*Use special font here*/
@@ -71,7 +67,6 @@ button {
 .landingBanner {
   width: 100%;
   height: auto;
-  border: 2px solid red;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -80,15 +75,16 @@ button {
   position: relative;
   height: 680px;
   background-color: lightgrey;
+  background-image: url(../assets/img/car04.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: black;
   margin: 0;
   padding: 0;
-  border: 2px solid green;
 }
 .landingBanner-card__caption {
   font-weight: 700;
   color: black;
-  line-height: 64px;
   letter-spacing: 0.4em;
   line-height: 64px;
 }
@@ -141,7 +137,6 @@ input {
 // }
 .landingBannerForm-cta__pickup {
   font-size: 13px;
-  // font-weight: 400;
 }
 .landingBannerForm-cta__ddown {
   background-color: #eeeeee;
@@ -159,16 +154,19 @@ input {
 }
 .servicesCard img {
   background-color: black;
+  background-image: url(../assets/img/airport-transfer-Mauritius.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 12px;
-  width: 100%;
-  height: 100%;
-  // gap: 3rem;
+  max-width: 270px;
+  max-height: 250px;
+  width: auto;
 }
 
 /* Our Fleet*/
-.ourFleet-carousel {
-  border: 2px solid brown;
-}
+// .ourFleet-carousel {
+//   border: 2px solid brown;
+// }
 .ourFleet-carousel__navArrow {
   // display: flex;
   // align-items: center;
@@ -190,7 +188,7 @@ input {
 }
 .custom-dot-list-style {
   color: #b5d57f;
-  background-color: red;
+  // background-color: red;
   margin-top: 30px;
 }
 .carousel-item-padding-40-px {
@@ -200,20 +198,43 @@ input {
 /*Why Choose Us*/
 .whyChooseUs-cards {
   margin-right: 5rem;
-  border: 2px solid rgb(226, 43, 104);
+  // border: 2px solid rgb(226, 43, 104);
 }
 .whyChooseUs-cards__icons {
   width: 12rem;
   height: 12rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   border-radius: 16px;
-  border: 2px solid blueviolet;
+  color: #b5d57f;
+  // border: 2px solid blueviolet;
+}
+.whyChooseUs-cards__iconsNthChild {
+  // width: 12rem;
+  // height: 12rem;
+  // margin-bottom: 2rem;
+  // border-radius: 16px;
+  color: black;
+  opacity: 0.92;
+  // border: 2px solid blueviolet;
+}
+.whyChooseUs-cards__icons .card:nth-child(even) {
+  color: black;
+  border: 2px solid greenyellow;
 }
 .whyChooseUs-cards__caption {
   width: 60%;
   margin-right: 2rem;
 }
 /* Only Today*/
+.onlyToday-header {
+  font-size: 42px;
+  letter-spacing: 0.16em;
+  line-height: 64px;
+}
+// .onlyToday-parag {
+//   font-style: 72px;
+//   letter-spacing: 0.1em;
+// }
 .onlyToday-card {
   position: relative;
   display: flex;
@@ -228,8 +249,21 @@ input {
 }
 .onlyToday-card__image {
   position: absolute;
-  top: -3px;
-  right: 0;
+  top: -25px;
+  right: 25px;
+}
+.onlyToday-list {
+  list-style: none;
+}
+
+.onlyToday-list li:before {
+  content: "✓";
+  padding-right: 10px;
+}
+.onlyToday-card__image {
+  mix-blend-mode: darken;
+  height: 350px;
+  width: 600px;
 }
 .appFooter-card {
   border-radius: 24px;
@@ -245,15 +279,26 @@ input {
 .appFooter-subcribe {
   font-weight: 200;
 }
+.appFooter-inputArrow {
+  background-color: white;
+  color: black;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  margin-left: 0;
+}
 .appFooter-list {
   font-size: 14px;
   font-weight: 200;
+  opacity: 0.75;
 }
 .appFooter-copyright {
   font-size: 14px;
   font-weight: 300;
+  opacity: 0.75;
 }
 .appFooter-tandc {
   font-size: 14px;
   font-weight: 200;
+  opacity: 0.5;
 }

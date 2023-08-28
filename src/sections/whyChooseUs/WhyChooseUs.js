@@ -11,40 +11,36 @@ function WhyChooseUs() {
           <span>fulfil all of your needs with first rate customer care.</span>
         </small>
       </div>
-      <div className="row pb-5">
+      <div className="demoOfNthChild row pb-5">
         <card className="whyChooseUs-cards col">
           <FaAlgolia className="whyChooseUs-cards__icons" />
-          <h5>Easy Online Booking</h5>
+          <h6 className="pb-2">Easy Online Booking</h6>
           <small className="whyChooseUs-cards__caption">
-            With additional wait time and flight tracking in case of delays, our service is
-            optimized to make every airport transfer a breeze.
+            With additional wait time and flight tracking in case of delays, our service.
+          </small>
+        </card>
+        <card className="whyChooseUs-cards whyChooseUs-cards__iconsNthChild col">
+          <FaAlgolia className="whyChooseUs-cards__icons" />
+
+          <h6 className="pb-2">Professional Drivers</h6>
+          <small>
+            With additional wait time and flight tracking in case of delays, our service.
           </small>
         </card>
         <card className="whyChooseUs-cards col">
           <FaAlgolia className="whyChooseUs-cards__icons" />
 
-          <h5>Professional Drivers</h5>
+          <h6 className="pb-2">Variety of Car Brands</h6>
           <small>
-            With additional wait time and flight tracking in case of delays, our service is
-            optimized to make every airport transfer a breeze.
+            With additional wait time and flight tracking in case of delays, our service.
           </small>
         </card>
         <card className="whyChooseUs-cards col">
           <FaAlgolia className="whyChooseUs-cards__icons" />
 
-          <h5>Variety of Car Brands</h5>
+          <h6 className="pb-2">Online Payment</h6>
           <small>
-            With additional wait time and flight tracking in case of delays, our service is
-            optimized to make every airport transfer a breeze.
-          </small>
-        </card>
-        <card className="whyChooseUs-cards col">
-          <FaAlgolia className="whyChooseUs-cards__icons" />
-
-          <h5>Online Payment</h5>
-          <small>
-            With additional wait time and flight tracking in case of delays, our service is
-            optimized to make every airport transfer a breeze.
+            With additional wait time and flight tracking in case of delays, our service.
           </small>
         </card>
       </div>

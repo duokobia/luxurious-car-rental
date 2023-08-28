@@ -5,7 +5,7 @@ import AppCarousel from "../../components/carousel/AppCarousel";
 
 function OurFleet() {
   return (
-    <section className="ourFleet container py-5">
+    <section className="ourFleet container py-2">
       <div className="col-8 offset-3 d-flex align-items-center justify-content-center my-5">
         <h2 className="pe-5">Our Fleet</h2>
         <small className="row">

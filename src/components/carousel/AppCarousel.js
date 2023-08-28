@@ -35,10 +35,10 @@ const responsive = {
 };
 function CustomDot({ onClick, ...rest }) {
   const {
-    onMove,
+    // onMove,
     index,
-    active,
-    carouselState: { currentSlide, deviceType }
+    active
+    // carouselState: { currentSlide, deviceType }
   } = rest;
   const carouselItems = [car1];
   // onMove means if dragging or swiping in progress.
